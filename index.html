@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navmenu & blog section</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .menu {
+            list-style-type: none;
+            background-color: black;
+        }
+
+        .menu ul {
+            overflow: auto;
+
+        }
+
+        .menu li {
+            float: left;
+            list-style-type: none;
+            margin: 13px 20px;
+        }
+
+        .menu li a {
+            padding-left: 20px;
+            color: aliceblue;
+            cursor: pointer;
+        }
+
+        .menu li a:hover {
+            color: rgb(255, 0, 85);
+        }
+
+        .menu li a:active {
+            color: blue;
+        }
+
+        .searchbar {
+            float: right;
+            margin: 10px 20px;
+        }
+
+        .input {
+            border-radius: 30px;
+        }
+
+        .heading {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .top {
+            border: 2px solid red;
+            margin: auto;
+            width: 15%;
+        }
+
+        .imge {
+            width: 30px;
+            display: block;
+            margin: auto;
+        }
+
+        .heading-2 {
+            margin: auto;
+            text-align: center;
+        }
+
+        .box {
+            border: 2px solid black;
+            width: 33%;
+            margin: 4px 0px;
+            padding: 23px;
+            background-color: lightgray;
+            display: inline-block;
+        }
+
+        .container {
+            width: 1200px;
+            margin: auto;
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact</a></li>
+                <div class="searchbar">
+                    <input type="text" name="search" id="search" placeholder="Search here">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <header class="top">
+        <img src="media/download.jpeg" class="imge">
+        <h3 class="heading-2">This is heading</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h3>
+                This is blog
+            </h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat incidunt, animi
+                assumenda non vel asperiores iure provident quis tenetur error minus illo aliquam culpa nam? Nesciunt
+                consequuntur delectus rem earum. Recusandae, rerum amet!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h3>
+                This is blog
+            </h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat incidunt, animi
+                assumenda non vel asperiores iure provident quis tenetur error minus illo aliquam culpa nam? Nesciunt
+                consequuntur delectus rem earum. Recusandae, rerum amet!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h3>
+                This is blog
+            </h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat incidunt, animi
+                assumenda non vel asperiores iure provident quis tenetur error minus illo aliquam culpa nam? Nesciunt
+                consequuntur delectus rem earum. Recusandae, rerum amet!</p>
+        </div>
+    </div>
+</body>
+
+</html>
